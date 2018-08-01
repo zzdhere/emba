@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+body{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 1.8;
+	background-color: #1e257d;
+}
+.container{
+	height: auto;
+	width: 100%;
+
+}
+.header{
+	height: auto;
+	width: 100%;
+	margin: auto;
+	
+}
+.logo{
+width: 100%;
+margin: auto;
+}
+
+.main .pic{
+	text-align: center;
+}
+
+.main form{
+	margin:5px auto;
+	width: 80%;
+	height: auto;
+}
+.line{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin:30px auto;
+	position: relative;
+}
+
+.input-title{
+	display: block;
+	z-index: 1;
+	position: absolute;
+	left: 20px;
+	top: 0;
+	color: #1e257d;
+}
+
+.input01,.input02{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	font-size: 18px;
+	margin: auto;
+	padding-left: 6px;
+	box-sizing: border-box;
+}
+
+.input01{
+	margin-bottom: 10px;
+}
+.input02{
+}
+.qd{
+	background: url(images/button.png);
+	width: 256px;
+	height: 66px;
+	margin:10px auto;
+	display: block;
+}
+.main .text{
+	width: 90%;
+	text-align: center;
+	margin: 5px auto;
+}
+.main .text p{
+	color:#FFFFFF !important;
+}
+.hy{
+	font-size: 30px;
+}
+
+.hd{
+	background: url(images/button1.png);
+	width: 256px;
+	height: 66px;
+	margin:10px auto;
+	display: block;
+}

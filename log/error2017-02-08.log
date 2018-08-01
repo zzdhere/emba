@@ -1,0 +1,63 @@
+verify.jsp：16:04:58：null<br>
+verify.jsp：16:04:59：null<br>
+verify.jsp：16:05:04：null<br>
+verify.jsp：16:05:05：null<br>
+verify.jsp：16:05:51：null<br>
+verify.jsp：16:05:52：null<br>
+verify.jsp：16:06:57：null<br>
+verify.jsp：16:06:58：null<br>
+verify.jsp：16:07:06：null<br>
+verify.jsp：16:07:07：null<br>
+verify.jsp：16:15:23：null<br>
+verify.jsp：16:15:24：null<br>
+verify.jsp：16:16:29：null<br>
+verify.jsp：16:16:30：null<br>
+verify.jsp：16:17:44：null<br>
+verify.jsp：16:17:45：null<br>
+verify.jsp：16:18:04：null<br>
+verify.jsp：16:18:05：null<br>
+verify.jsp：16:18:38：null<br>
+verify.jsp：16:18:39：null<br>
+verify.jsp：16:21:53：null<br>
+verify.jsp：16:38:27：null<br>
+Datavase.java：16:45:02：ORA-00942: 表或视图不存在
+： select * from t_qdyh where zsxm like '%%' and dh like '%%'<br>
+Datavase.java：16:45:03：ORA-00942: 表或视图不存在
+： select t_qdyh.zsxm, t_qdyh.nc yhnc, t_qdyh.dh, t_jx.mc jxmc from t_zjr, t_qdyh, t_jx where t_zjr.openid = t_qdyh.openid       and t_zjr.jxid = t_jx.jxid order by t_jx.px desc<br>
+Datavase.java：16:50:06：ORA-00942: 表或视图不存在
+： select * from t_qdyh where zsxm like '%%' and dh like '%%'<br>
+Datavase.java：16:50:07：ORA-00942: 表或视图不存在
+： select t_qdyh.zsxm, t_qdyh.nc yhnc, t_qdyh.dh, t_jx.mc jxmc from t_zjr, t_qdyh, t_jx where t_zjr.openid = t_qdyh.openid       and t_zjr.jxid = t_jx.jxid order by t_jx.px desc<br>
+Datavase.java：17:21:27：ORA-00942: 表或视图不存在
+：select * from t_ym where zt = 'Y' order by xh<br>
+admin/xitong/js_modify.jsp：17:21:27：null<br>
+verify.jsp：19:41:31：null<br>
+Datavase.java：19:57:03：ORA-00942: 表或视图不存在
+： select t_yh.*, t_bm.mc bmmc from t_yh_gn, t_yh, t_bm where t_yh_gn.yhid = t_yh.yhid       and t_yh.bmid = t_bm.bmid       and t_yh_gn.gnid = 'null'       and t_yh.mc like '%null%'<br>
+               where t_yh_gn.yhid = t_yh.yhid                             and t_yh_gn.gnid = 'null')<br>
+admin/xitong/gnyh_select.jsp：19:57:03：null<br>
+admin/xitong/gnyh_unselect.jsp：19:57:03：null<br>
+Datavase.java：19:57:03：ORA-00942: 表或视图不存在
+： select t_yh.*, t_bm.mc bmmc from t_yh_gn, t_yh, t_bm where t_yh_gn.yhid = t_yh.yhid       and t_yh.bmid = t_bm.bmid       and t_yh_gn.gnid = '20160104143703'       and t_yh.mc like '%%'<br>
+admin/xitong/gnyh_select.jsp：19:57:03：null<br>
+Datavase.java：19:57:03：ORA-00942: 表或视图不存在
+： select t_yh.*, t_bm.mc bmmc from t_yh, t_bm where t_yh.bmid = t_bm.bmid       and t_yh.mc like '%%'       and not exists (select t_yh_gn.*                       from t_yh_gn                       where t_yh_gn.yhid = t_yh.yhid                             and t_yh_gn.gnid = '20160104143703')<br>
+admin/xitong/gnyh_unselect.jsp：19:57:03：null<br>
+Datavase.java：21:14:46：ORA-00942: 表或视图不存在
+：select * from t_ym where zt = 'Y' order by xh<br>
+admin/xitong/js_modify.jsp：21:14:46：null<br>
+Datavase.java：21:15:06：ORA-00904: "XH": 标识符无效
+：select * from t_cc where mc like '%%' order by xh<br>
+admin/xitong/cc_list.jsp：21:15:06：null<br>
+Datavase.java：21:15:35：ORA-00904: "XH": 标识符无效
+：select * from t_cc where mc like '%%' order by xh<br>
+admin/xitong/cc_list.jsp：21:15:35：null<br>
+Datavase.java：21:27:21：ORA-00904: "XH": 标识符无效
+：select * from t_cc where mc like '%%' order by xh<br>
+admin/xitong/cc_list.jsp：21:27:21：null<br>
+Datavase.java：21:27:24：ORA-00904: "XH": 标识符无效
+：select * from t_cc where mc like '%%' order by xh<br>
+admin/xitong/cc_list.jsp：21:27:24：null<br>
+Datavase.java：21:29:12：ORA-00904: "XH": 标识符无效
+：select * from t_cc where mc like '%%' order by xh<br>
+admin/xitong/cc_list.jsp：21:29:12：null<br>

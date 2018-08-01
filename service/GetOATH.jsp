@@ -1,0 +1,1 @@
+"https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxed86d8e52be984ec&secret=eb9ec987c6f0523ebe70724ce3503af3"

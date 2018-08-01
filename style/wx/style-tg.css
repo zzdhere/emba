@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+body{
+	font-family: "microsoft yahei";
+	font-size: 24px;
+	color: #540000;
+	line-height: 1.8;
+	background-color: #3e195c;
+}
+.container{
+	height: auto;
+	width: 100%;
+
+}
+.header{
+	padding: 15px;
+	height: auto;
+	width: 780px;
+	margin: auto;
+
+}
+.logo{
+
+	width: 780px;
+	height: auto;
+}
+.title{
+	background: url(images/title.png) no-repeat;
+	width: 315px;
+	height: 85px;
+	margin: 50px auto;
+}
+.main .pic{
+	margin: 0 auto;
+	padding: 15px;
+	width: 200px;
+	height: 200px;
+}
+.main form{
+	margin:20px auto;
+	width: 431px;
+	height: auto;
+}
+.input01{
+	background: url(images/input01.jpg) no-repeat;
+	width: 431px;
+	height: 41px;
+	line-height: 40px;
+	color: #666;
+	font-size: 18px;
+	margin: 10px auto;
+	padding-left: 80px;
+	box-sizing:border-box;
+}
+.input02{
+	background: url(images/input02.jpg) no-repeat;
+	width: 431px;
+	height: 41px;
+	line-height: 40px;
+	color: #666;
+	font-size: 18px;
+	margin: 20px auto;
+	padding-left: 110px;
+	box-sizing:border-box;
+}
+.qd{
+	background: url(images/button.png);
+	width: 256px;
+	height: 66px;
+	margin:30px auto;
+	display: block;
+}
+.main .text{
+	width: 500px;
+	text-align: center;
+	margin: 30px auto;
+}
+.hy{
+	font-size: 30px;
+}
+
+.text0{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 12px;
+	text-align: left;
+	color:#fffac2;
+}

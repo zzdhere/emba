@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+body{
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	color: #540000;
+	line-height: 1.8;
+	background: url(../img/bg.jpg) no-repeat scroll center top;
+	overflow: hidden;
+}
+
+.container{
+	max-width: 1400px;
+	min-width: 1024px;
+	margin: auto;
+}
+.header{
+	position: relative;
+	z-index: 9999;
+	padding: 15px;
+	height: 130px;
+
+}
+.logo{
+	background: url(../img/logo.png) no-repeat scroll top left;
+	width: 317px;
+	height: 121px;
+	float: left;
+	margin-left:140px;
+	margin-top:40px;
+}
+.title{
+	background: url(../img/title2.png) no-repeat;
+	float: right;
+	width: 528px;
+	height: 109px;
+	margin-top: 70px;
+
+}
+.main{
+	position: relative;
+	max-width: 1320px;
+	min-height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	top: -30px;
+	z-index: 1;
+}
+.main .left, .main .center, .main .right{
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top:40px ;
+	min-height: 650px;
+	box-sizing: border-box;
+	float: left;
+	background-color: rgba(255,255,255,0.6);
+}
+.main .left{
+	width: 24%;
+	margin-right: 1%;
+	margin-top: 15px;
+}
+.main p{
+	clear: both;
+	margin:15px auto;
+}
+.main .center{
+	width: 50%;
+}
+.main .right{
+	width: 24%;
+	margin-left: 1%;
+}
+.center ul{
+	width: 456px;
+	height: 456px;
+	margin: auto;
+
+}
+.center ul li{
+	width:132px;
+	height: 132px;
+	margin: 10px;
+	float: left;
+}
+.center ul li.hasT{
+	width:90px;
+	height: 90px;
+}
+.center ul li.hasT3{
+	width:180px;
+	height: 180px;
+}
+
+.center ul li.hasT2{
+	width:190px;
+	height: 190px;
+}
+.center ul li.hasT1{
+	width:380px;
+	height: 380px;
+}
+
+.main h3{
+	font-size: 20px;
+	float: left;
+	width: 50%;
+}
+.clear{
+	clear: both;
+}
+.right ul{
+	float: right;
+	width: 85%;
+}
+.right ul li{
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+	line-height: 1.5;
+}

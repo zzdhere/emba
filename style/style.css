@@ -1,0 +1,232 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  font-family: 宋体;
+}
+
+form
+{ 
+  margin: 0px;
+}
+
+.th
+{
+  font-family: "宋体";
+  font-size: 12px;
+  vertical-align: middle;
+  color: #000000;
+  line-height: 25px;
+  background-color: #EAF4FA;
+}
+
+.td
+{
+  font-family: "宋体";
+  font-size: 12px;
+  vertical-align: middle;
+  color: #4f6b72;
+  line-height: 25px;
+  background-color: #F9FBFD;
+}
+.td_nobackground
+{
+  font-family: "宋体";
+  font-size: 12px;
+  vertical-align: middle;
+ 
+}
+.td_red
+{
+  font-family: "宋体";
+  font-size: 12px;
+  vertical-align: middle;
+  color: red;
+  line-height: 25px;
+  background-color: #F9FBFD;
+}
+
+.td_green
+{
+  font-family: "宋体";
+  font-size: 12px;
+  vertical-align: middle;
+  color: green;
+  line-height: 25px;
+  background-color: #F9FBFD;
+}
+
+.td_blue
+{
+  font-family: "宋体";
+  font-size: 12px;
+  vertical-align: middle;
+  color: blue;
+  line-height: 25px;
+  background-color: #F9FBFD;
+}
+
+.field
+{
+  font-family: "宋体";
+  font-size:12px;
+  LINE-HEIGHT: 30px;
+  color: #000000;
+  background-color: #EAF4FA;
+}
+
+.data
+{
+  font-family: "宋体";
+  font-size:12px;
+  LINE-HEIGHT: 30px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+a:link
+{
+  color: #000000;
+  text-decoration: none;
+}
+ 
+a:visited
+{
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: #FF0000;
+}
+
+a:active
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu_bar
+{
+  background:url('images/layout_select.png');
+}
+
+.menu
+{
+  font-family: "宋体";
+  font-size:13px;
+  height:24px;
+  cursor: hand;
+  border-bottom: 1px solid silver;
+}
+
+.title
+{
+  FONT-SIZE: 18px; COLOR: #363737; LINE-HEIGHT: 22px; FONT-FAMILY: "宋体"; FONT-WEIGHT: bold;
+}
+
+.text
+{
+  font-family: "宋体";
+  font-size:13px;
+  LINE-HEIGHT: 20px;
+}
+
+.text_red
+{
+  font-family: "宋体";
+  font-size:13px;
+  LINE-HEIGHT: 20px;
+  color: red;
+}
+
+.message
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+}
+
+.box
+{
+  border-style: solid;
+  border-color: silver;
+  border-width: 1px;
+}
+
+.box_left
+{
+  border-left: 1px solid silver;
+}
+
+.box_right
+{
+  border-right: 1px solid silver;
+}
+
+.box_top
+{
+  border-top: 1px solid silver; 
+}
+
+.box_bottom
+{
+  border-bottom: 1px solid silver;
+}
+
+.input
+{
+  color: #333333;
+}
+
+.button
+{
+  BORDER-RIGHT: #2C59AA 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #2C59AA 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5); BORDER-LEFT: #2C59AA 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #2C59AA 1px solid
+}
+
+.hand
+{
+  cursor: hand;
+}
+
+.select
+{
+  FONT-SIZE: 13px; COLOR: #000000;
+}
+
+.dot 
+{
+  border-style: dashed;
+  border-color: #999999;
+  border-width: 1px;
+}
+
+.dot_top 
+{
+  border-top:1px dashed #999999;
+}
+
+.dot_bottom 
+{
+  border-bottom:1px dashed #999999;
+}
+
+.dot_left 
+{
+  border-left:1px dashed #999999;
+}
+
+.dot_right 
+{
+  border-right:1px dashed #999999;
+}
+
+.background
+{
+  background-color: white;
+  background-image: url("../style/images/bg01.jpg");
+  background-repeat: repeat-x;
+}

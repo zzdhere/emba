@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<config>
+  <!--业务数据库参数-->
+  <database>
+    <emba>
+      <!--数据库驱动-->
+      <driver>oracle.jdbc.driver.OracleDriver</driver>
+      <!--数据库服务器URL-->
+      <url>jdbc:oracle:thin:@192.168.56.101:1521:ORCL</url>
+      <!--<url>jdbc:oracle:thin:@113.6.252.184:1521:ORCL</url>-->
+      <!--<url>jdbc:oracle:thin:@127.0.0.1:1521:ORCL</url>-->
+      <!--数据库用户名-->
+      <user>oadb</user>
+      <!--数据库用户密码-->
+      <password>wmxx123456</password>
+      <!--是否加密-->
+      <encrypt>N</encrypt>
+      <!--加密转换-->
+      <convert>N</convert>
+    </emba>
+  </database>
+  
+  <!--日志参数-->
+  <log>
+    <system>Y</system>
+    <error>Y</error>
+  </log>
+</config>
